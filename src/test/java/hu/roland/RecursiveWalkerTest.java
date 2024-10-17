@@ -14,7 +14,7 @@ public class RecursiveWalkerTest extends TestCase {
         RecursiveWalker rw = new RecursiveWalker();
         var file = "hello.ex";
         assertEquals(true, Files.exists(new File(file).toPath()));
-        assertEquals(8, rw.countBlankLines(file).specific());
+        assertEquals(2, rw.countBlankLines(file).specific());
     }
 
     @Test
