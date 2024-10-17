@@ -15,7 +15,7 @@ java -jar recursiveWalk-1.0-SNAPSHOT-jar-with-dependencies.jar -path='/home/rola
 java -jar recursiveWalk-1.0-SNAPSHOT-jar-with-dependencies.jar -path='/home/roland/IdeaProjects/RecurseWalker/' --recursive --max-depth=7 --thread=3 --include-ext='java' --exclude-ext='sh'
 
 
-# Ghbvths результатов работы 
+# Примеры результатов работы 
 в папке result
 
 
